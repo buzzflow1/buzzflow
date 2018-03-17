@@ -1,0 +1,52 @@
+@import "variables/colors";
+
+// # for background-color
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-navy {
+  background-color: $navy;
+}
+
+.bg-dark-gray {
+  background-color: $dark-gray;
+}
+
+.bg-light-gray {
+  background-color: $light-gray;
+}
+
+// for text-color
+.txt-white {
+  color: $white;
+}
+
+.txt-black {
+  color: $black;
+}
+
+.txt-pink {
+  color: $pink;
+}
+
+.txt-navy {
+  color: $navy;
+}
+
+.txt-dark-gray {
+  color: $dark-gray;
+}
+
+.txt-light-gray {
+  color: $light-gray;
+}

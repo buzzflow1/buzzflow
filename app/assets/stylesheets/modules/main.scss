@@ -1,0 +1,17 @@
+.m-navigation {
+  width: 100%;
+  height: 50px;
+}
+
+.m-navigation-logo {
+  height: 100%;
+  padding-left: 10px;
+}
+
+.m-align-item-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+  align-items: center; /* 縦方向中央揃え */
+}
+
