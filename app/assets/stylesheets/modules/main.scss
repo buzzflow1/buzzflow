@@ -1,17 +1,28 @@
-.m-navigation {
-  width: 100%;
-  height: 50px;
-}
-
-.m-navigation-logo {
-  height: 100%;
-  padding-left: 10px;
-}
-
 .m-align-item-center {
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
   align-items: center; /* 縦方向中央揃え */
 }
+
+.m-navigation-logo {
+  padding-left: 10px;
+}
+
+.m-navigation-button {
+  padding: 0 15px;
+  cursor: pointer;
+  height: 100%;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-align-items: center;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.8;
+    translate: .4s;
+  }
+
+}
+
 

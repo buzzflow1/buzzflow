@@ -1,3 +1,20 @@
-.l-grid-12 {
-  width: 100%;
+.l-grid-navigation {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px;
+  grid-template-rows: 1fr;
+  height: 50px;
+}
+
+.l-grid-navigation-logo {
+  grid-row: 1;
+  grid-column: 1;
+  padding-left: 20px;
+}
+
+.l-grid-navigation-buttons {
+  grid-row: 1;
+  grid-column: 3;
+  display: --webkit-flex;
+  display: flex;
+  justify-content: center;
 }
