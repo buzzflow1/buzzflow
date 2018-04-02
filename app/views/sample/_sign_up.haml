@@ -1,0 +1,14 @@
+#SignUp.m-modal-main.bg-white.is-hidden
+  .m-modal-header.bg-navy
+    %h3.m-modal-header-title.txt-white.txt-center SignUp
+.m-modal-overlay.is-hidden
+
+:javascript
+  let sign_up_modal = document.querySelector('#SignUp.m-modal-main');
+  let sign_up_overlay = document.querySelector('.m-modal-overlay');
+  let sign_up_buttons = {
+    openButton: document.querySelector('#SignUpButton'),
+  }
+
+  let sign_up_modal_obj = new Modal(sign_up_modal, sign_up_overlay, sign_up_buttons);
+  sign_up_modal_obj.setEventListeners();

@@ -1,0 +1,14 @@
+#SignIn.m-modal-main.bg-white.is-hidden
+  .m-modal-header.bg-navy
+    %h3.m-modal-header-title.txt-white.txt-center SignIn
+.m-modal-overlay.is-hidden
+
+:javascript
+  let sign_in_modal = document.querySelector('#SignIn.m-modal-main');
+  let sign_in_overlay = document.querySelector('.m-modal-overlay');
+  let sign_in_buttons = {
+    openButton: document.querySelector('#SignInButton'),
+  }
+
+  let modal_obj = new Modal(sign_in_modal, sign_in_overlay, sign_in_buttons);
+  modal_obj.setEventListeners();
